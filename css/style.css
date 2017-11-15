@@ -1,0 +1,384 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Amiko';
+}
+
+p.italics{
+    font-family: 'Dancing Script';
+    font-size:22px;
+}
+/*------------Header--------------*/
+header{
+    width:100%;
+    background:url(assets/background-img.png) no-repeat;
+    background-size:cover;
+    background-position:left center;
+}
+#main{
+    width:33%;
+    padding:50px 5% 50px 62%;
+}
+.invitation{
+    width:80%;
+    padding:30px 10% 20px;
+    text-align:center;
+    border:4px solid #ffffff;
+    color:#ffffff;
+    background: rgba(30,87,153,0.2); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(30,87,153,0.2) 0%, rgba(41,137,216,0.2) 50%, rgba(32,124,202,0.2) 51%, rgba(125,185,232,0.2) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,0.2) 0%,rgba(41,137,216,0.2) 50%,rgba(32,124,202,0.2) 51%,rgba(125,185,232,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,0.2) 0%,rgba(41,137,216,0.2) 50%,rgba(32,124,202,0.2) 51%,rgba(125,185,232,0.2) 100%);
+    
+}
+
+header p.italics{
+    padding-bottom:20px;
+   
+}
+header h1{
+    font-size:70px;
+    font-weight:bold;
+    line-height:60px;
+}
+header h3{
+    font-size:25px;
+    padding-bottom:10px;
+    padding-top:20px;
+    font-weight:100;
+}
+.border{
+    border:1.5px solid #ffffff;
+    width:30%;
+    text-align:center;
+    margin:0 auto;
+    
+}
+header p.text{
+    font-size:18px;
+    line-height:1.6em;
+    padding:24px;
+
+}
+.section{
+    width:100%;
+    height:650px;
+}
+
+/*-----------------Sidebar---------------*/
+sidebar{
+    width:30%;
+    float:left;
+    background-color:#cac5c1;
+    height:650px;
+}
+.speakers{
+    width:80%;   
+    padding:0 10%;
+    text-align:left;
+}
+.speakers h3{
+    color:white;
+    font-size:25px;
+    font-weight:100;
+    margin-top:-60px;
+}
+.speakers ul{
+    width:100%;
+    padding-bottom:40px;
+}
+.speakers li{
+    list-style-type:none;
+    line-height:1.6em;
+}
+.speakers li h4{
+    color:#1c1919;
+    font-size:14px;
+    font-family: 'Archivo Black';
+}
+.speakers .text-muted{
+    color:#878686;
+}
+.speakers li:nth-child(4){
+    color:#1c1919;
+    font-size:12px;
+    font-weight:bold;
+    
+}
+.speakers li a{
+    font-size:12px;
+    color:#156093;
+    font-weight: bold;
+    text-decoration:none;
+}
+.speakers li a:hover{
+  color:#0b4d7d;  
+}
+.speakers li img{
+    width:80px;
+    height:80px;
+    border:2px solid #ffffff;
+    border-radius:50%;
+   
+
+}
+
+/*--------------------Section------------------*/
+section{
+    width:69.7%;
+    border-left:2px solid white;
+    float:right;
+    background-color:#e7e5e3;
+    height:650px;
+}
+#section{
+    width:94%;
+    padding:30px 3%;
+}
+section h3{
+    font-size:25px;
+    width:70%;
+    padding:0 30% 20px 0;
+    line-height:1.4em;
+}
+section .list{
+    width:100%;
+    padding:20px 0;
+}
+section .list li{
+    font-size:14px;
+    color: #36353c;
+    font-weight: bold;
+}
+section .seminar-info{
+    width:100%;
+}
+.seminar-info h5{
+    color:#878686;
+    font-size:14px;
+}
+.seminar-info ul{
+    width:50%;
+    float:left;
+    padding-bottom:20px;
+}
+.seminar-info li{
+    list-style-type:none;
+    font-size:14px;
+    color: #36353c;
+    font-weight: bold;
+}
+.seminar-info li.text-strong{
+    color:#292525;
+    font-size:14px;
+    font-weight:bold;
+    font-family: 'Archivo Black';
+}
+.reservations{
+    float:left;
+    width:50%;
+    padding:20px 0 35px;
+}
+.reservations p{
+    font-size:15px;
+    color:#36353c;
+    width:100%;
+    font-weight:bold;
+}
+.reservations a{
+    font-size:12px;
+    color:#156093;
+    font-weight: bold;
+    text-decoration:none;
+}
+.reservations a:hover{
+    color:#0b4d7d;  
+}
+.reservations .text-muted{
+    font-size:13px;
+    padding-top:10px;
+    color:#878686;
+   
+}
+.logo{
+    width:50%;
+    float:right;
+    text-align:center;
+    padding-top:40px;
+}
+.logo h1{
+    font-family: 'Lateef';
+    font-size: 25px;
+    font-weight: 100;
+    line-height:20px;
+    text-transform: uppercase;
+    color:#1074bc;
+    
+}
+.logo h1::first-letter{
+    font-size:50px;
+}
+.logo h2{
+    font-family: 'Lateef';
+    font-size: 25px;
+    font-weight: 100;
+    line-height:20px;
+    text-transform: uppercase;
+    color:#1074bc;
+    
+}
+.logo h2::first-letter{
+    font-size:50px;
+}
+
+.logo a{
+    font-size:10px;
+    color:#156093;
+    font-weight: bold;
+    text-decoration:none;
+    line-height:20px;
+}
+
+.logo a:hover{
+  color:#0b4d7d;  
+}
+
+
+/*-----------Media Queries-------------*/
+
+@media screen and (max-width:1024px){
+#main{
+    width:50%;
+    padding:40px 5% 30px 45% ;       
+}
+    
+}
+@media screen and (max-width:960px){
+#main{
+    width:50%;
+    padding:40px 5% 30px 45% ;       
+}
+header h1{
+    font-size:60px;
+}
+section h3{
+    width:90%;
+    padding:0 5% 0 0;
+   }
+}
+@media screen and (max-width:768px){
+#main{
+    width:60%;
+    padding:40px 5% 80px 35% ;       
+}
+.invitation{
+    width:90%;
+    padding:30px 5% 20px;
+}
+header h1{
+    font-size:50px;
+    font-weight:bold;
+    line-height:60px;
+}
+header h3{
+    font-size:20px;
+    padding-bottom:10px;
+    padding-top:20px;
+    font-weight:100;
+}
+header p.text{
+    font-size:16px;
+    line-height:1.6em;
+    width:100%;
+    padding:0;
+    margin-top:20px;
+
+}
+sidebar{
+    width:100%;
+    float:none;
+}
+.speakers:not:first-child {
+    background-color: none;
+}
+.speakers{
+    text-align:center;
+    background-color:#cac5c1;
+}
+.speakers h3{
+    background-color:none;
+}
+.speakers ul{
+ width:100%;   
+}
+section{
+    width:100%;
+    float:none;
+    border-left:none;
+}
+#section{
+    width:90%;
+    padding:0 5%;
+}
+section h3{
+    padding-top:20px;
+    line-height:1.2em;
+}
+}
+
+@media screen and (max-width:480px){
+#main{
+    width:70%;
+    padding:40px 7% 80px 23% ;       
+}
+.invitation{
+    width:90%;
+    padding:30px 5% 20px;
+}
+header h1{
+    font-size:40px;
+    line-height:40px;
+}
+header h3{
+    font-size:16px;
+}
+header p.text{
+    font-size:12px;
+    line-height:1.6em;
+    width:100%;
+    padding:0;
+    margin-top:20px;
+
+}
+header p.italics{
+    font-size:16px;
+}
+section{
+    width:100%;
+    height:700px;
+}
+#section{
+    width:90%;
+    padding:0 5%%;
+}
+section h3{
+    font-size:18px;
+}
+.section .list li{
+}
+.seminar-info li.text-strong{
+    font-size:10px;
+}
+.reservations{
+    float:none;
+    width:100%;
+    padding:0;
+}
+.reservations p{
+    font-size:14px;
+}
+.logo{
+    width:100%;
+}
+
+}
